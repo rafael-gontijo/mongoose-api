@@ -1,0 +1,16 @@
+{
+  "name": "mongoose-api",
+  "version": "1.0.0",
+  "description": "Api desenvolvida em NodeJs e MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Gontijo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "mongoose-api": "file:"
+  }
+}
