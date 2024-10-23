@@ -17,8 +17,9 @@ const Film = mongoose.model('Film',{
 
 
 
-app.get('/', (req, res) =>{
-    res.send('Hello World!')
+app.get('/', async (req, res) =>{
+    const films = await Film.find()
+    res.send(films)
 })
 
 app.post('/', async (req, res) => {
