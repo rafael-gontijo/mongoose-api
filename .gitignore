@@ -1,0 +1,19 @@
+# Ignora o diretório node_modules
+node_modules/
+
+# Ignora o arquivo .env
+.env
+
+# Ignora logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignora dados temporários do sistema
+.DS_Store
+
+# Ignora as pastas de cache do sistema
+.cache/
+.temp/
