@@ -4,7 +4,7 @@
   "description": "Api desenvolvida em NodeJs e MongoDB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "author": "Rafael Gontijo",
   "license": "ISC",
@@ -14,5 +14,9 @@
     "joi": "^17.13.3",
     "mongoose": "^8.7.2",
     "mongoose-api": "file:"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0",
+    "vitest": "^2.1.4"
   }
 }
